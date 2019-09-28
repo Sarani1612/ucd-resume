@@ -197,8 +197,13 @@
         </div>
 
     </footer>
+    <script>
+        var APIKey = "AIzaSyDb6dWB2mCPQYPmKPqSLZiwwyx5RF_m2yo";
+    </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+<!--Async loads the scripts at the same time as the HTML is loading, and then there's just a brief pause while the script is executed.-->
+<!--Defer waits until the page has finished loading before the script is executed. Async and defer don't mean much when we have the scripts at the bottom.-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb6dWB2mCPQYPmKPqSLZiwwyx5RF_m2yo&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>
 </body>
 
