@@ -119,7 +119,7 @@ header {
 }
 
 .logo {
-    background: url(../Images/rosie.jpg);
+    background: url(../images/rosie.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -391,6 +391,11 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+
+
+#map {
+    min-height: 360px;
 }
 
 /*-----------------------------------------------------------Media Queries */
